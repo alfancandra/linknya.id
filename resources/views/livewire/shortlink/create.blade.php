@@ -28,4 +28,10 @@
         </div>
     </div>
     @endif
+
+    @auth
+        @livewire('shortlink.index')
+    @else 
+    @endauth
+    
 </div>
